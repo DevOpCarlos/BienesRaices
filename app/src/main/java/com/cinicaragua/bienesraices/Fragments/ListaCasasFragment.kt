@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.cinicaragua.bienesraices.DAOs.CasaDao
 import com.cinicaragua.bienesraices.R
 
 class ListaCasasFragment : Fragment() {
@@ -25,5 +26,6 @@ class ListaCasasFragment : Fragment() {
     companion object {
         @JvmStatic
         fun newInstance() = ListaCasasFragment()
+      //  fun selectAllCasa() = ListaCasasFragment()
     }
 }
